@@ -1,0 +1,6 @@
+APLICACION.JAVA
+	metodos buscar:
+		tenemos metodos que reciben los tres campos de busqueda (dni, nombre y telefono)
+		la busqueda debe ser por un OR, un XOR o un AND de los tres campos??
+		deberiamos hacer metodos por separado?? si es asi, dado que dni y nombre son String, 
+		Como diferenciamos los metodos??

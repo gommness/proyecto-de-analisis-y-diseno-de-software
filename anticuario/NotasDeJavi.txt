@@ -1,0 +1,5 @@
+Hecho:
+	-paquete ganancias
+	-menu para consultar ganancias
+	-paquete para pujas dentro de paquete para subastas
+	-menu para registrar puja

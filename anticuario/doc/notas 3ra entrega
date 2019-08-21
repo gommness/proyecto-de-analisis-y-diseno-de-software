@@ -1,0 +1,33 @@
+-implementacion --> toda la funcionalidad
+	-paquetes
+	-metodos autocontenidos
+	-javadoc
+-demostrador (main)
+-pruebas unitarias (junit)
+-diagrama clases, matriz
+
+
+en moodle hay un pdf con la explicacion de los ficheros de articulo
+
+El envio de notificaciones, nos van a dar un software al que habrá que
+llamar desde nuestra app. (2da semana de Marzo approx)
+
+codigo para gestion de fechas:
+---------------------------------------------------------------------------------------------
+LocalDate f = LocalDate.now() 
+//fecha actual
+
+DateTimeFormatter dtf = DateTimeFormater.ofLocalizedDate(FormatStyle SHORT)
+LocalDate f2 = LocalDate.parse("29/2/16",dtt) 
+//me dan in string con la fecha y lo parseo a un obj de tipo fecha
+
+LocalDate f3 = f.plusDays(40) 
+//suma 40 dias a f
+
+f.isAfter(f2);
+f.isBefore(f2); 
+//devuelven si una fecha es anterior o posterior a otra (f2)
+
+
+
+1 de abril entrega.
